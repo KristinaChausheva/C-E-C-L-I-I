@@ -18,14 +18,18 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Contact</title>
+    <title>Bootstrap Theme</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand">Glozzom</a>
         <button
@@ -40,7 +44,7 @@
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="about.html" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
@@ -49,7 +53,7 @@
             <li class="nav-item">
               <a href="blog.html" class="nav-link">Blog</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -62,7 +66,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 m-auto text-center">
-            <h1>Contact Us</h1>
+            <h1>About Us</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
               temporibus?
@@ -72,93 +76,37 @@
       </div>
     </header>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="py-3 text-white">
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="card p-4">
-              <div class="card-body">
-                <h4>Get In Touch</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Pariatur, odio!
-                </p>
-                <h4>Address</h4>
-                <p>550 Main st, Boston MA</p>
-                <h4>Email</h4>
-                <p>test@test.com</p>
-                <h4>Phone</h4>
-                <p>(555) 555-5555</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <h1 class="mb-4">What We Do</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              fuga eaque. Amet, assumenda aliquid tempore dolorum error eveniet
+              doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam
+              accusantium pariatur aut sint deleniti laborum ducimus voluptatem?
+              Architecto cumque quod suscipit officiis soluta, voluptate dicta
+              blanditiis similique praesentium temporibus adipisci debitis
+              labore!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              fuga eaque. Amet, assumenda aliquid tempore dolorum error eveniet
+              doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam
+              accusantium pariatur aut sint deleniti laborum ducimus voluptatem?
+              Architecto cumque quod suscipit officiis soluta, voluptate dicta
+              blanditiis similique praesentium temporibus adipisci debitis
+              labore!
+            </p>
           </div>
-          <div class="col-md-8">
-            <div class="card p-4">
-              <div class="card-body">
-                <h3 class="text-center">
-                  Please fill out this form to contact us
-                </h3>
-                <hr />
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="First Name"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Last Name"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Phone Number"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input
-                        type="submit"
-                        value="Submit"
-                        class="btn btn-outline-danger btn-block"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img
+              src="https://source.unsplash.com/random/700x700/?technology"
+              alt=""
+              class="img-fluid rounded-circle d-none d-md-block about-img"
+            />
           </div>
         </div>
       </div>
@@ -190,10 +138,17 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
     <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
+
+      $('.slider').slick({
+        infinite: true,
+        slideToShow: 1,
+        slideToScroll: 1,
+      });
     </script>
   </body>
 </html>
