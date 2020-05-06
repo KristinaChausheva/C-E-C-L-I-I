@@ -17,21 +17,21 @@ body {
 }
 
 .carousel-item {
-  height: 980px;
+  height: 930px;
 }
 
 .carousel-image-1 {
-  background: url('../img/ceclii1.png');
+  background: url('../img/ceclii1.png') no-repeat center center fixed;
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/ceclii2.png');
+  background: url('../img/ceclii2.png') no-repeat center center fixed;
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/ceclii3.png');
+  background: url('../img/ceclii3.png') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -208,9 +208,3 @@ img:hover {
     grid-column: 1/3;
   }
 }
-
-/* @media only screen and (max-width: 1366px) {
-  #page-header {
-    background-position: 35px -400px;
-  }
-} */
