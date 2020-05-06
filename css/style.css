@@ -154,8 +154,8 @@ body {
 }
 
 .gal {
-  /* position: relative;
-  top: 100px; */
+  position: relative;
+  top: 50px;
   display: grid;
   grid-column-gap: 0;
   width: 100%;
@@ -180,6 +180,39 @@ img {
 
 img:hover {
   opacity: 0.2;
+}
+
+.fa-youtube {
+  color: red;
+}
+.fa-flickr {
+  color: white;
+}
+
+.fa-flickr {
+  color: white;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 @media only screen and (max-width: 640px) {
