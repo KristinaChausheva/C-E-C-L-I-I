@@ -17,32 +17,22 @@ body {
 }
 
 .carousel-item {
-  height: 940px;
+  height: 980px;
 }
 
 .carousel-image-1 {
-  background: url('../img/image1.jpg');
+  background: url('../img/ceclii1.png');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/image2.jpg');
+  background: url('../img/ceclii2.png');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/image3.jpg');
+  background: url('../img/ceclii3.png');
   background-size: cover;
-}
-
-#home-heading {
-  position: relative;
-  min-height: 200px;
-  background: url('../img/lights.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: #fff;
 }
 
 .dark-overlay {
@@ -54,30 +44,18 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-#video-play {
-  position: relative;
-  min-height: 200px;
-  background: url('../img/media.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 0 -300px;
-  text-align: center;
-  color: #fff;
-}
-
-#video-play a {
-  color: #fff;
-}
-
 #page-header {
-  height: 200px;
-  background: url('../img/image1.jpg');
-  background-position: 0 -360px;
+  background: url('https://live.staticflickr.com/4260/35551226896_243fd97c61_k.jpg')
+    no-repeat center center fixed;
+  background-size: auto;
+  background-position: 35px -400px;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
-  min-height: 430px;
+  min-height: 650px;
+  margin-top: 50px;
+  min-width: 100vw;
 }
 
 .about-img {
