@@ -64,43 +64,93 @@
       <div class="card vert">
         <img class="zoom img-fluid" src="img/gallery/vert.jpg" alt="" />
 
-        <a href="img/gallery/vert.jpg">TEXT</a>
+        <a
+          href="img/gallery/vertLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="img/gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card box">
         <img class="" src="img/gallery/teddy.jpg" alt="" />
-        <a href="../gallery/teddy.jpg">TEXT</a>
+        <a
+          href="img/gallery/teddyLarge.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
       <div class="card horizontal">
         <img class="" src="img/gallery/horizontal.jpg" alt="" />
-        <a href="img/gallery/horizontal.jpg">TEXT</a>
+        <a
+          href="img/gallery/horizontal.jpg"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          >TEXT</a
+        >
       </div>
     </div>
     <script
@@ -136,21 +186,27 @@
         $(this).ekkoLightbox();
       });
 
-      // Video Play
-      $(function () {
-        // Auto play modal video
-        $('.video').click(function () {
-          var theModal = $(this).data('target'),
-            videoSRC = $(this).attr('data-video'),
-            videoSRCauto =
-              videoSRC +
-              '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function () {
-            $(theModal + ' iframe').attr('src', videoSRC);
-          });
-        });
-      });
+      // // Video Play
+      // $(function () {
+      //   // Auto play modal video
+      //   $('.video').click(function () {
+      //     var theModal = $(this).data('target'),
+      //       videoSRC = $(this).attr('data-video'),
+      //       videoSRCauto =
+      //         videoSRC +
+      //         '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
+      //     $(theModal + ' iframe').attr('src', videoSRCauto);
+      //     $(theModal + ' button.close').click(function () {
+      //       $(theModal + ' iframe').attr('src', videoSRC);
+      //     });
+      //   });
+      // });
+
+      // //IMG
+      // $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      //   event.preventDefault();
+      //   $(this).ekkoLightbox();
+      // });
     </script>
   </body>
 </html>
