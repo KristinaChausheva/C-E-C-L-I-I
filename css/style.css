@@ -89,19 +89,19 @@ body {
   background: linear-gradient(gray 0%, black 100%);
 }
 
-.vert a {
+/* .vert a {
   text-decoration: none;
   color: white;
   position: relative;
   top: -35em;
   left: 13em;
   height: 0px;
-  width: 50px;
+  width: 80px;
   display: none;
 }
 .vert:hover a {
   display: block;
-}
+} */
 
 .box a {
   text-decoration: none;
@@ -110,7 +110,7 @@ body {
   top: -15em;
   left: 13em;
   height: 0px;
-  width: 50px;
+  width: 80px;
   display: none;
 }
 .box:hover a {
@@ -124,7 +124,7 @@ body {
   top: -15em;
   left: 27em;
   height: 0px;
-  width: 50px;
+  width: 180px;
   display: none;
 }
 .horizontal:hover a {
@@ -144,10 +144,10 @@ img {
   width: 100%;
   height: auto;
 }
-.vert {
+/* .vert {
   grid-row: 1/3;
   position: relative;
-}
+} */
 .horizontal {
   grid-column: 3/5;
 }
@@ -214,9 +214,9 @@ img:hover {
     grid-gap: 0;
   }
 
-  .vert {
+  /* .vert {
     grid-row: 1/3;
-  }
+  } */
 
   .horizontal {
     grid-column: 1/3;
