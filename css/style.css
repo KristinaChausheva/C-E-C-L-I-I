@@ -53,7 +53,7 @@ body {
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
-  min-height: 400px;
+  min-height: 600px;
   margin-top: 50px;
   min-width: 100vw;
 }
@@ -209,8 +209,8 @@ img:hover {
   }
 }
 
-/* @media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1240px) {
   #page-header {
-    max-height: 450px;
+    min-height: 350px;
   }
-} */
+}
