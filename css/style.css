@@ -154,7 +154,8 @@ div#quad .card a {
 }
 
 .card:hover {
-  opacity: 0.2;
+  opacity: 0.5;
+  /* transform: scale(1.05); */
 }
 .expanded {
   transform: scale(2);
@@ -236,6 +237,19 @@ img {
 
  */
 
+.blog {
+  width: 100%;
+  height: auto;
+  transition: 1s;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(gray 0%, black 100%);
+  border: #000 solid 2px;
+}
+
 .fa-youtube {
   color: red;
 }
@@ -282,6 +296,20 @@ img {
 @media only screen and (max-width: 660px) {
   .card {
     width: 50%;
+    height: auto;
+  }
+  .blog {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .blog {
+    width: 30%;
     height: auto;
   }
 }
