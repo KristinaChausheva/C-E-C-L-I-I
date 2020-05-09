@@ -269,29 +269,20 @@ img {
   -webkit-background-clip: text;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1200px) {
   #page-header {
     min-height: 350px;
   }
-  .gal {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0;
-  }
-  .horizontal {
-    grid-column: 2/4;
+  .card {
+    width: 33.33%;
+    height: auto;
   }
 }
 
-@media only screen and (max-width: 740px) {
-  .gal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0;
-  }
-
-  .horizontal {
-    grid-column: 1/3;
+@media only screen and (max-width: 660px) {
+  .card {
+    width: 50%;
+    height: auto;
   }
 }
 
