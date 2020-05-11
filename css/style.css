@@ -45,7 +45,7 @@ body {
 }
 
 #page-header {
-  background: url('../img/ceclii1.jpg') no-repeat center -500px fixed;
+  background: url('../img/ceclii1.png') no-repeat center -500px fixed;
   -webkit-background-size: cover;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
