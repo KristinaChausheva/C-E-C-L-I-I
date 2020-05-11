@@ -47,6 +47,8 @@ body {
 #page-header {
   background: url('../img/ceclii1.jpg') no-repeat center -500px fixed;
   -webkit-background-size: cover;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -327,9 +329,9 @@ div.full .card:not(.expanded) {
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
   #page-header {
-    min-height: 300px;
+    min-height: 450px;
   }
 }
 
