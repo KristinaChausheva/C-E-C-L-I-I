@@ -232,9 +232,6 @@ div.full .card:not(.expanded) {
 }
 
 @media only screen and (max-width: 1200px) {
-  #page-header {
-    min-height: 300px;
-  }
   .card {
     width: 33.33%;
     height: auto;
@@ -330,7 +327,10 @@ div.full .card:not(.expanded) {
   }
 }
 
-@media only screen and (min-width: 660px) {
+@media only screen and (max-width: 1600px) {
+  #page-header {
+    min-height: 300px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
