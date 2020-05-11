@@ -56,7 +56,7 @@ body {
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
-  min-height: 600px;
+  height: 600px;
   margin-top: 50px;
   min-width: 100vw;
 }
@@ -277,7 +277,7 @@ div.full .card:not(.expanded) {
   }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 680px) {
   .card {
     width: 50%;
     height: auto;
@@ -328,13 +328,16 @@ div.full .card:not(.expanded) {
   div#quad .card:nth-child(12) {
     transform-origin: bottom right;
   }
+  .about-img {
+    margin-top: 50px;
+  }
 }
 
-@media only screen and (max-width: 1700px) {
+/* @media only screen and (max-width: 1700px) {
   #page-header {
     min-height: 450px;
   }
-}
+} */
 
 @media only screen and (min-width: 1200px) {
   .blog {
@@ -342,5 +345,3 @@ div.full .card:not(.expanded) {
     height: auto;
   }
 }
-
-/* New Gallery */
