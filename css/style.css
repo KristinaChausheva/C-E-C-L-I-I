@@ -52,6 +52,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
