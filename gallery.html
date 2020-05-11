@@ -152,7 +152,10 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <p>Copyright &copy; <span id="year"></span> C E C L I I</p>
+            <p class="copy">
+              <span>Copyright</span> &copy; <span id="year"></span>
+              <span class="text-wrap logo"> CECLII</span>
+            </p>
           </div>
           <div class="col-6">
             <a
@@ -224,28 +227,6 @@
         event.preventDefault();
         $(this).ekkoLightbox();
       });
-
-      // // Video Play
-      // $(function () {
-      //   // Auto play modal video
-      //   $('.video').click(function () {
-      //     var theModal = $(this).data('target'),
-      //       videoSRC = $(this).attr('data-video'),
-      //       videoSRCauto =
-      //         videoSRC +
-      //         '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
-      //     $(theModal + ' iframe').attr('src', videoSRCauto);
-      //     $(theModal + ' button.close').click(function () {
-      //       $(theModal + ' iframe').attr('src', videoSRC);
-      //     });
-      //   });
-      // });
-
-      // //IMG
-      // $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-      //   event.preventDefault();
-      //   $(this).ekkoLightbox();
-      // });
     </script>
   </body>
 </html>
